@@ -45,8 +45,20 @@ nav ul li a {
     color: red;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
 }
 @media screen and (max-width: 480px){
     body {
-    width: 100%;}   
+    width: 100%;}
+    nav ul li a {
+        width: 100%;
+        font-weight: 20%;
+    }
+    .navbar {
+        width: 100%;
+        font-weight: 20%;
+    }
+    .logo {
+        width: 100%;
+    }   
 }
