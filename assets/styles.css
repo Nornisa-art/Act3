@@ -8,13 +8,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #333;
+    background: black;
     padding: 15px 20px;
     position: relative;
 }
 
 .logo {
-    color: white;
+    color: yellow;
     font-size: 24px;
     font-weight: bold;
 }
@@ -31,21 +31,21 @@
 
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: yellow;
     font-size: 18px;
     padding: 8px 12px;
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    background: #555;
+    background: gray;
     border-radius: 5px;
 }
 
 .menu-icon {
     display: none;
     font-size: 28px;
-    color: white;
+    color: yellow;
     cursor: pointer;
 }
 
@@ -58,7 +58,7 @@
         display: none;
         flex-direction: column;
         width: 100%;
-        background: #333;
+        background: yellow;
         position: absolute;
         top: 60px;
         left: 0;
@@ -115,8 +115,8 @@
     padding: 40px 80px;
     font-size: 32px;
     font-weight: bold;
-    background-color: cadetblue;
-    color: white;
+    background-color: green;
+    color: black;
     display: inline-block;
     text-align: left;
     border-radius: 8px; 
@@ -131,7 +131,7 @@
 .Text1 p, 
 .text-container p {
     font-size: 18px;
-    color: #333;
+    color: black;
 }
 
 .section-3 {
@@ -144,7 +144,7 @@
 }
 
 .heading-section, .content-section, .heading-section, .section-3 {
-    margin-bottom: 50px; 
+    margin-bottom: 30px; 
 }
 
 @media screen and (max-width: 768px) {
@@ -180,7 +180,7 @@
     justify-content: center; 
     align-items: center; 
     text-align: center;
-    background-color: #f4f4f4; 
+    background-color: yellow; 
     padding: 50px 20px;
     width: 100%;
 }
@@ -188,16 +188,16 @@
 .heading-text, .subheading-text {
     font-size: 32px;
     font-weight: bold;
-    color: white;
-    background-color: cadetblue;
+    color: black;
+    background-color: yellow;
     padding: 40px 100px;
     display: inline-block;
     margin-bottom: 20px;
 }
 
 .cta-button {
-    background: cadetblue;
-    color: white;
+    background: rgb(255, 255, 255);
+    color: black;
     padding: 12px 24px;
     font-size: 18px;
     font-weight: bold;
@@ -208,7 +208,7 @@
 }
 
 .cta-button:hover {
-    background: #0056b3;
+    background: yellowgreen;
 }
 
 @media screen and (max-width: 768px) {
@@ -221,7 +221,7 @@
     }
 }
 .content-section {
-    background-color: #f4f4f4; 
+    background-color: yellow; 
     padding: 50px;
     width: 100%;
     display: flex;
@@ -232,7 +232,7 @@
 }
 
 .section-3 {
-    background-color: #f4f4f4; 
+    background-color: yellow; 
     padding: 50px;
     width: 100%;
     display: flex;
